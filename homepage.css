@@ -1081,12 +1081,18 @@ img {
  .footer-col ul li a:hover{
      color: #f4d1a5;
      padding-left: 8px;
+     margin-right: -8px;
  }
+
+.social-links{
+    display: flex;
+}
+
  .footer-col .social-links a{
     height: 40px;
     width: 40px;
     background-color: #644337;
-    display:grid;
+    display: grid;
     align-items: center;
     justify-content: center;
     margin: 0 10px 10px 0;
@@ -1103,6 +1109,7 @@ img {
  .social-links a i {
     font-size: 20px;
  }
+
  .p.foot{
      transition: all 0.3s ease;
      font-weight: 300;
@@ -1112,6 +1119,7 @@ img {
 
  .Address{
     color: white;
+    margin: 0;
  }
  
  /*responsive*/
